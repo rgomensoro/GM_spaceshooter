@@ -5,9 +5,15 @@
 speed = 4;
 
 //seguindo o player
-direction = point_direction(x,y,obj_player.x,obj_player.y);
 
-image_angle = 180;
+if (instance_exists(obj_player))
+{	
+	direction = point_direction(x,y,obj_player.x,obj_player.y);
+}
+else
+{
+		direction = 270;
+}
 
 image_xscale = 2;
 
