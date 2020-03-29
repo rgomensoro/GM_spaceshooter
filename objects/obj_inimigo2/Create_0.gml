@@ -8,5 +8,5 @@ speed = 2;
 
 alarm[0] = 1;
 
-vida = 2;
+vida_inimigo = 2;
 

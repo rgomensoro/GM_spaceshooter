@@ -1,4 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_create_layer(x,y,"inimigos",obj_explosao);
+
+if (xp_atual >=  xp_level)
+{
+	global.level ++;
+	xp_level *= 4;
+}

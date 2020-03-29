@@ -27,7 +27,7 @@ if (tiro)
 	instance_create_layer(x,y,"player", obj_tiro001);
 }
 
-if (vida <= 0)
+if (obj_controle.vida <= 0)
 {
 	instance_destroy();
 }

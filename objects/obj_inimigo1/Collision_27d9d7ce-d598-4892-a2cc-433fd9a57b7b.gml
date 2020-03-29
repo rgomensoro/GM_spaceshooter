@@ -3,9 +3,4 @@
 
 instance_destroy();
 
-with (other) {
-
-vida--;
-
-
-}
+if (instance_exists(obj_controle)) obj_controle.vida--;

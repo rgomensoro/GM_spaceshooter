@@ -3,5 +3,5 @@
 
 instance_destroy();
 
-other.vida--;
+obj_controle.vida--;
 

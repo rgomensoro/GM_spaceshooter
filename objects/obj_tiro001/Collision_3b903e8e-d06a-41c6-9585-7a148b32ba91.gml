@@ -6,8 +6,17 @@ instance_destroy();
 
 with (other) {
 	
-	vida --
+	vida_inimigo --
 	
-	if (vida <= 0) instance_destroy();
+	if (vida_inimigo <= 0)
+	{
+		instance_destroy();		
+		
+		if (instance_exists(obj_controle))
+		{
+			obj_controle.xp_atual += 2;
+		}
+
+	}
 	
 }

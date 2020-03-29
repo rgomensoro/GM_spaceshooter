@@ -6,7 +6,7 @@ direction = 270;
 
 speed = 2;
 
-vida = 1;
+vida_inimigo = 1;
 
 alarm[0] = 1;
 
