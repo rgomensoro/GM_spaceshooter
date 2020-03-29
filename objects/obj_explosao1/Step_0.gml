@@ -2,7 +2,8 @@
 // You can write your code in this editor
 
 
-if (y > 700)
-{
-	instance_destroy();
-}
+image_xscale += 0.2;
+image_yscale += 0.2;
+
+image_alpha -= 0.07;
+
