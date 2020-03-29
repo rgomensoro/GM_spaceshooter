@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0571b7d9-b487-434e-ba0f-7c026b0257d8",
+            "Value": {
+                "id": "3ddc1e33-1e72-4da0-90c8-2d203cd24034",
+                "resourcePath": "objects\\obj_tiro_inimigo2\\obj_tiro_inimigo2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "15b8bc95-9dbc-4c2e-b106-0a90d8dacd92",
             "Value": {
                 "id": "1644d9a4-63a1-4b08-8001-4e420d718156",
@@ -44,6 +52,14 @@
                 "id": "2f1d1339-0e3d-45f6-9845-a97f605fdfdf",
                 "resourcePath": "sprites\\spr_tiro_inimigo1\\spr_tiro_inimigo1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2aaf8569-5ead-415e-beb3-816b8e7a7e78",
+            "Value": {
+                "id": "dbef7a70-cf07-4f2d-8a76-6c230ef669bb",
+                "resourcePath": "objects\\obj_explosao_player\\obj_explosao_player.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -159,6 +175,14 @@
             }
         },
         {
+            "Key": "7e093175-9980-4d09-9429-b7181ff63dad",
+            "Value": {
+                "id": "40fd071c-038e-41d3-970c-0a280776996f",
+                "resourcePath": "sprites\\spr_inimigo2\\spr_inimigo2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "83999198-d042-4922-879d-74225e1c6cfd",
             "Value": {
                 "id": "bd09983d-132a-4da2-a75e-fb0c0327f6d7",
@@ -188,6 +212,14 @@
                 "id": "457868d6-431c-4b0a-8098-a14d8868641e",
                 "resourcePath": "views\\a1392537-4552-4f36-99c3-f69592c56b61.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a15c4316-4cdf-4898-95c5-e5d63a0a8658",
+            "Value": {
+                "id": "22490321-7b7c-4a0c-99b7-167b3866aa20",
+                "resourcePath": "sprites\\spr_tiro_inimigo2\\spr_tiro_inimigo2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -275,6 +307,14 @@
             "Value": {
                 "id": "55faf451-1ad2-409b-a91b-b745bf831548",
                 "resourcePath": "objects\\obj_tiro_inimigo1\\obj_tiro_inimigo1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e03365d0-a217-4b5e-8f42-16aaaefcae83",
+            "Value": {
+                "id": "18ab13de-4f7a-4604-88a9-19fed13e0ef0",
+                "resourcePath": "objects\\obj_inimigo2\\obj_inimigo2.yy",
                 "resourceType": "GMObject"
             }
         },
