@@ -10,3 +10,6 @@ alarm[0] = 1;
 
 vida_inimigo = 2;
 
+natela = false;
+
+movendo = false;

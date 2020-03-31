@@ -5,5 +5,5 @@
 if (xp_atual >=  xp_level)
 {
 	global.level ++;
-	xp_level *= 4;
+	xp_level *= 2;
 }

@@ -25,6 +25,7 @@ y += velV;
 if (tiro) 
 {
 	instance_create_layer(x,y,"player", obj_tiro001);
+	instance_create_layer(x,y,"player", obj_tiro002);
 }
 
 if (obj_controle.vida <= 0)
