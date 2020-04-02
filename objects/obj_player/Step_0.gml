@@ -7,6 +7,7 @@ var cima = keyboard_check(vk_up);
 var baixo = keyboard_check(vk_down);
 var tiro = keyboard_check_pressed(vk_space);
 
+
 // Movimento Horizontal.
 
 var velH = (dir-esq)*vel;
@@ -14,18 +15,84 @@ var velH = (dir-esq)*vel;
 x += velH;
 
 
-// Movimento Horizontal.
+// Movimento Vertical.
 
 var velV = (baixo-cima)*vel;
 
 y += velV;
 
 // tiro
-
 if (tiro) 
 {
-	instance_create_layer(x,y,"player", obj_tiro001);
-	instance_create_layer(x,y,"player", obj_tiro002);
+	switch (obj_controle.level_tiro)
+	{
+		case 1:
+			instance_create_layer(x,y,"player", obj_tiro001);
+
+			break;
+
+		case 2:
+		
+			var t = instance_create_layer(x-28,y,"player", obj_tiro002);
+			t.hspeed = 4;
+			
+			var t = instance_create_layer(x+28,y,"player", obj_tiro002);
+			t.hspeed = -4;
+			
+			break;
+			
+		case 3:
+
+
+			instance_create_layer(x,y,"player", obj_tiro001);
+
+			var t = instance_create_layer(x-28,y,"player", obj_tiro002);
+			t.hspeed = 4;
+			
+			var t = instance_create_layer(x+28,y,"player", obj_tiro002);
+			t.hspeed = -4;
+			
+			break;
+
+			
+		case 4:
+
+			var delta = 20;
+		
+			repeat(3)
+			{
+				var t = instance_create_layer(x-10,y,"player", obj_tiro001);
+				t.direction += delta;
+				t.image_angle += delta;
+				
+				delta -= 20;
+			}
+
+			break;
+			
+		case 5:
+
+
+			var delta = 20;
+		
+			repeat(3)
+			{
+				var t = instance_create_layer(x-10,y,"player", obj_tiro001);
+				t.direction += delta;
+				t.image_angle += delta;
+				
+				delta -= 20;
+			}
+
+			var t = instance_create_layer(x-28,y,"player", obj_tiro002);
+			t.hspeed = 8;
+			
+			var t = instance_create_layer(x+28,y,"player", obj_tiro002);
+			t.hspeed = -8;
+			
+
+			break;
+	}
 }
 
 if (obj_controle.vida <= 0)

@@ -18,7 +18,7 @@ else
 	natela = false;
 }
 
-if (natela)
+if (natela && !movendo)
 {
 	if ((y > room_height / 3) && (movendo == false))
 	{
@@ -26,12 +26,12 @@ if (natela)
 
 		if ( x > room_width / 2) // esta nma direita
 		{
-			hspeed = 4;
+			hspeed = -4;
 			movendo = true;
 		}
 		else
 		{
-			hspeed = -4;
+			hspeed = 4;
 			movendo = true;
 		}		
 	}

@@ -1,14 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Inherit the parent event
-event_inherited();
 
-direction = 90;
-speed = 8;
+direction = random(360);
+speed = random_range(.2,1);
 
-hspeed = 5;
+aumentando = true;
 
 cor = choose(c_orange,c_red,c_maroon);
+
+
+
 
 

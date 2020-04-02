@@ -5,11 +5,13 @@
 
 global.level = 1;
 
+randomize();
+
+// Dados do player
 xp_atual = 0;
-
 xp_level = 20;
-
 vida = 3;
+level_tiro = 1;
 
 alarm[0] = room_speed * 2;
 

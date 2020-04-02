@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "027ffdb6-c0c6-466a-a8bd-9e303a835911",
+            "Value": {
+                "id": "8d708894-43e1-4c2b-b758-ce849877ed66",
+                "resourcePath": "sprites\\spr_power_up\\spr_power_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "03c68132-14bd-4e15-8bd5-22c54f245efc",
             "Value": {
                 "id": "aadb48a8-31be-49da-a3b8-1d0428ea8f8f",
@@ -59,6 +67,14 @@
             "Value": {
                 "id": "d1aa17d4-43f6-4095-a346-cefccd99d1c1",
                 "resourcePath": "objects\\obj_tiro002\\obj_tiro002.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1210aaa7-3ab3-4321-9bc2-93bf287204e8",
+            "Value": {
+                "id": "0d314312-4ec1-43d4-b265-644d1fd15169",
+                "resourcePath": "objects\\object13\\object13.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -132,6 +148,14 @@
                 "id": "9c94b479-0761-455a-bc8f-c99f1d645b51",
                 "resourcePath": "sprites\\spr_explosao\\spr_explosao.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "43376f6c-edb4-41fd-acc8-d28822a5c29d",
+            "Value": {
+                "id": "b0d6f1f7-c949-41e4-817f-0d25f3e22412",
+                "resourcePath": "objects\\obj_powerup\\obj_powerup.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -364,6 +388,14 @@
                 "id": "18ab13de-4f7a-4604-88a9-19fed13e0ef0",
                 "resourcePath": "objects\\obj_inimigo2\\obj_inimigo2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e6b8f95c-cfd1-426c-aae1-84d1335340f2",
+            "Value": {
+                "id": "457de07b-fa0b-44ce-be61-53f05f6da9f3",
+                "resourcePath": "sprites\\spr_escudo\\spr_escudo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
