@@ -8,13 +8,13 @@ y = -96
 
 direction = 270;
 speed = 2;
-vida_inimigo = 1000;
+vida_inimigo = 500;
 
-inicio = true;
-
-estado = 2;
+estado = 0;
 delay = 0;
 
+natela = false;
+
 movendo = false;
-troca_estado = 3;
+troca_estado = 0;
 

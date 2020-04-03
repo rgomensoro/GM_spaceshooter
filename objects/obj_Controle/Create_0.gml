@@ -9,9 +9,12 @@ randomize();
 
 // Dados do player
 xp_atual = 0;
-xp_level = 20;
+xp_level = 2;
 vida = 3;
 level_tiro = 1;
+qtd_escudo = 3;
 
-alarm[0] = room_speed * 2;
+//debug boss
+boss = false
 
+alarm[0] = irandom_range (2, 5) * room_speed;

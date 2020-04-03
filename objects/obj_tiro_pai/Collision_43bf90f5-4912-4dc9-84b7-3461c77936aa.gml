@@ -4,18 +4,10 @@
 instance_destroy();
 
 with (other) {
-	
-	vida_inimigo --
-	
-	if (vida_inimigo <= 0)
-	{
-		instance_destroy();		
-		
-		if (instance_exists(obj_controle))
-		{
-			obj_controle.xp_atual += 2;
-		}
 
-	}
+	if (natela)
+		vida_inimigo --
 	
 }
+
+show_debug_message("tiro:destroyed");

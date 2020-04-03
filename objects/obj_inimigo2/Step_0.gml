@@ -8,14 +8,11 @@ if (y > 0 && y < 700)
 		natela = true;
 		alarm[0] = room_speed*random_range(1.5, 3);
 	}
-	
-	natela = true;
+
 }
 else
 {
 	if (natela) instance_destroy();
-
-	natela = false;
 }
 
 if (natela && !movendo)
@@ -38,4 +35,9 @@ if (natela && !movendo)
 }
 
 if (vida_inimigo <= 0)
+{
 	instance_destroy();
+	if (instance_exists(obj_controle))
+		obj_controle.xp_atual+= 2;	
+}
+

@@ -8,3 +8,5 @@ alarm[0] = duracao;
 forca = 2;
 
 cor = c_white;
+
+audio_play_sound(snd_escudo_up,11,false);

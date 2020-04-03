@@ -24,15 +24,20 @@ var velV = (baixo-cima)*vel;
 y += velV;
 
 //escudo
-if (escudo)
+if (escudo && obj_controle.qtd_escudo > 0)
 {
 	if ( !instance_exists(obj_escudo))
+	{
 		instance_create_layer(x,y,"player",obj_escudo);
+		obj_controle.qtd_escudo--;
+	}
 }
 
 // tiro
 if (tiro) 
 {
+	audio_play_sound(snd_tiro_player,10,false);
+	
 	switch (obj_controle.level_tiro)
 	{
 		case 1:
@@ -107,4 +112,6 @@ if (tiro)
 if (obj_controle.vida <= 0)
 {
 	instance_destroy();
+	audio_stop_all();
+	audio_play_sound(snd_loose,20,false);	
 }

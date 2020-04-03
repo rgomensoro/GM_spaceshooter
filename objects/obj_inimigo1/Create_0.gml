@@ -4,9 +4,10 @@
 
 direction = 270;
 
-speed = 2;
+speed = random_range(2,3.5);
 
 vida_inimigo = 1;
+natela = false;
 
 alarm[0] = 1;
 
