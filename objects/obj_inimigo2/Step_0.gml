@@ -36,3 +36,6 @@ if (natela && !movendo)
 		}		
 	}
 }
+
+if (vida_inimigo <= 0)
+	instance_destroy();

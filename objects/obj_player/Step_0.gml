@@ -6,6 +6,8 @@ var dir = keyboard_check(vk_right);
 var cima = keyboard_check(vk_up);
 var baixo = keyboard_check(vk_down);
 var tiro = keyboard_check_pressed(vk_space);
+var escudo = keyboard_check_pressed(ord("E"));
+
 
 
 // Movimento Horizontal.
@@ -20,6 +22,13 @@ x += velH;
 var velV = (baixo-cima)*vel;
 
 y += velV;
+
+//escudo
+if (escudo)
+{
+	if ( !instance_exists(obj_escudo))
+		instance_create_layer(x,y,"player",obj_escudo);
+}
 
 // tiro
 if (tiro) 

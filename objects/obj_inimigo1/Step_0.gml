@@ -6,3 +6,6 @@ if (y > 700)
 {
 	instance_destroy();
 }
+
+if (vida_inimigo <= 0)
+	instance_destroy();
