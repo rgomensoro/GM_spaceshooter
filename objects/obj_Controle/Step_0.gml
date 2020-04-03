@@ -8,6 +8,14 @@ if (xp_atual >=  xp_level)
 	xp_level *= 2;
 }
 
+show_debug_message(string(xp_atual) + " - pontos:" + string(global.total_pontos));
+
+if (xp_atual > global.total_pontos)
+{
+	global.total_pontos = xp_atual;		
+}
+
+
 if (global.level >= 5 && !boss)
 {
 	instance_create_layer(384,-96,"inimigos", obj_boss);

@@ -1,12 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+draw_set_font(fnt_score);
 
 draw_text(20,20, "Level: " + string(global.level));
 
-draw_text(20,35, "Current XP: " + string(xp_atual));
+draw_text(20,55, "Current XP: " + string(xp_atual));
 
-draw_text(20,50, "XP to next level: " + string(xp_level-xp_atual));
+draw_text(20,90, "XP to next level: " + string(xp_level-xp_atual));
 
 pos = 0;
 //desenhando a vida
