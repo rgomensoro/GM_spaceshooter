@@ -6,7 +6,7 @@ draw_self();
 image_blend = c_white;
 
 draw_set_color(c_black);
-draw_set_font(fnt_score);
+draw_set_font(fnt_botao);
 draw_set_valign(fa_middle);
 draw_set_halign(fa_center);
 draw_text(x,y,texto);

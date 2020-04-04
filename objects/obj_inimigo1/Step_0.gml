@@ -21,6 +21,7 @@ if (vida_inimigo <= 0)
 {
 	instance_destroy();
 		if (instance_exists(obj_controle))
-		obj_controle.xp_atual++;	
-
+			obj_controle.xp_atual++;	
+	global.total_inimigos_destruidos++;
+	global.inimigos_destruidos++;
 }

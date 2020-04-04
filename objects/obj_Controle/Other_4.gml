@@ -5,6 +5,10 @@ if (room == rm_level01)
 {
 	audio_play_sound(snd_music,1,true);	
 }
+else
+{
+	audio_stop_all();
+}
 
 
 

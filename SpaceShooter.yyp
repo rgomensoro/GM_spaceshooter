@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "243e4a21-7ead-43ff-8946-82d9302278e9",
+            "Value": {
+                "id": "89613690-b103-4264-9eaf-447d516b1a6c",
+                "resourcePath": "fonts\\fnt_score\\fnt_score.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "2aaf8569-5ead-415e-beb3-816b8e7a7e78",
             "Value": {
                 "id": "dbef7a70-cf07-4f2d-8a76-6c230ef669bb",
@@ -140,6 +148,14 @@
                 "id": "3eb8439b-ac32-4781-ab56-48e8d04c7666",
                 "resourcePath": "views\\3b51cae8-1e3e-49d9-9391-d20d70987e36.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3c32ad2f-8486-4f6c-990d-c51d74bb3d4d",
+            "Value": {
+                "id": "3332ed90-5a8d-40f4-b185-bddc96aaa79e",
+                "resourcePath": "objects\\obj_botao_sair\\obj_botao_sair.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -220,6 +236,14 @@
                 "id": "30882791-fd1c-4f31-be02-86b69338fd66",
                 "resourcePath": "sprites\\spr_botao\\spr_botao.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5720c9f1-bc1b-4c8e-ab94-9860b547204f",
+            "Value": {
+                "id": "5f77c341-9587-499a-9a38-6901159cf2cd",
+                "resourcePath": "objects\\obj_transicao\\obj_transicao.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -383,6 +407,14 @@
             }
         },
         {
+            "Key": "a82f8863-da9e-4510-aba8-0ba98293eb32",
+            "Value": {
+                "id": "642a62a7-bd67-4aa1-9253-786967ce8f45",
+                "resourcePath": "objects\\obj_botao_voltar\\obj_botao_voltar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ac866f55-3a4b-403e-88a0-edc70d571d5e",
             "Value": {
                 "id": "e12e8fa4-8aed-4b82-b81d-c06a20ff916b",
@@ -487,6 +519,14 @@
             }
         },
         {
+            "Key": "d34bfead-fbb6-4d0b-98a7-0d01108ad1e8",
+            "Value": {
+                "id": "efee215e-5682-4639-b94f-cd9c8ba155c4",
+                "resourcePath": "fonts\\fnt_titulo\\fnt_titulo.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "d7210e79-94ce-4c63-81c2-cc6e5425871c",
             "Value": {
                 "id": "0ea904e9-d43e-4b2f-a213-185d9bfc56fa",
@@ -546,7 +586,7 @@
             "Key": "eec3948a-c41b-4958-9033-9b497aafefce",
             "Value": {
                 "id": "9f15ce58-fc2f-4eea-8a64-82264c26519f",
-                "resourcePath": "fonts\\fnt_score\\fnt_score.yy",
+                "resourcePath": "fonts\\fnt_botao\\fnt_botao.yy",
                 "resourceType": "GMFont"
             }
         },

@@ -4,7 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-texto = "Jogar!"
-room_destino = rm_level01;
-
+texto = "Voltar";
+room_destino = rm_inicio;
 

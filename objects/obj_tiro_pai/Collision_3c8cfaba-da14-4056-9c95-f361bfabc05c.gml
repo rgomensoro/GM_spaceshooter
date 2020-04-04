@@ -3,9 +3,9 @@
 
 instance_destroy();
 
-instance_destroy(other);
-
-if (instance_exists(obj_controle))
-{
-	obj_controle.xp_atual += 1;
+with (other) {
+	
+	if (natela)
+		vida_inimigo --;
+		
 }

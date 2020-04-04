@@ -8,7 +8,6 @@ if (xp_atual >=  xp_level)
 	xp_level *= 2;
 }
 
-show_debug_message(string(xp_atual) + " - pontos:" + string(global.total_pontos));
 
 if (xp_atual > global.total_pontos)
 {

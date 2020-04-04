@@ -18,3 +18,4 @@ qtd_escudo = 3;
 boss = false
 
 alarm[0] = irandom_range (2, 5) * room_speed;
+
