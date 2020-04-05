@@ -1,4 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_destroy(other);
+
+
+with (other)
+{
+  vida_inimigo -= 10;	
+}
+

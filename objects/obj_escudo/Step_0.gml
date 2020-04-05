@@ -12,6 +12,4 @@ if (instance_exists(obj_player))
 if (image_index == 0)
 	image_alpha -= 0.05;
 	
-if (forca == 0)
-	instance_destroy();
 	

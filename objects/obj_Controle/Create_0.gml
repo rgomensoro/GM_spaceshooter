@@ -9,7 +9,7 @@ randomize();
 
 // Dados do player
 xp_atual = 0;
-xp_level = 2;
+xp_level = 20;
 vida = 3;
 level_tiro = 1;
 qtd_escudo = 3;

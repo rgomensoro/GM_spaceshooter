@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00ae9b53-bd65-46eb-b6b2-6270279ae279",
+            "Value": {
+                "id": "e9c1de71-879d-4f94-93ff-df7ae92a59c6",
+                "resourcePath": "objects\\obj_explosao_boss\\obj_explosao_boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "027ffdb6-c0c6-466a-a8bd-9e303a835911",
             "Value": {
                 "id": "8d708894-43e1-4c2b-b758-ce849877ed66",

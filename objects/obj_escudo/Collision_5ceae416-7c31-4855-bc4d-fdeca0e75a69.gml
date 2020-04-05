@@ -3,5 +3,3 @@
 
 
 instance_destroy(other);
-
-forca -= 2;
