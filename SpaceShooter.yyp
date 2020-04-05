@@ -135,14 +135,6 @@
             }
         },
         {
-            "Key": "35bf5c3e-f677-47a8-942b-bfe2c5f73b62",
-            "Value": {
-                "id": "9875e54f-daf0-4ec5-a094-88fefec8561a",
-                "resourcePath": "objects\\obj_botao_jogar\\obj_botao_jogar.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "378ce853-30d3-492f-96d5-c1399c935a4a",
             "Value": {
                 "id": "c51dfe85-8485-4f3b-8b0e-aa3f53290b5d",
@@ -156,14 +148,6 @@
                 "id": "3eb8439b-ac32-4781-ab56-48e8d04c7666",
                 "resourcePath": "views\\3b51cae8-1e3e-49d9-9391-d20d70987e36.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "3c32ad2f-8486-4f6c-990d-c51d74bb3d4d",
-            "Value": {
-                "id": "3332ed90-5a8d-40f4-b185-bddc96aaa79e",
-                "resourcePath": "objects\\obj_botao_sair\\obj_botao_sair.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -415,14 +399,6 @@
             }
         },
         {
-            "Key": "a82f8863-da9e-4510-aba8-0ba98293eb32",
-            "Value": {
-                "id": "642a62a7-bd67-4aa1-9253-786967ce8f45",
-                "resourcePath": "objects\\obj_botao_voltar\\obj_botao_voltar.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ac866f55-3a4b-403e-88a0-edc70d571d5e",
             "Value": {
                 "id": "e12e8fa4-8aed-4b82-b81d-c06a20ff916b",
@@ -508,14 +484,6 @@
                 "id": "575470a7-f67d-47a2-b4c7-5c06f1046338",
                 "resourcePath": "views\\c3954ad4-407a-4347-9971-6e5b9d2d6497.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c70b9e74-0c0d-4571-9fd3-5399d84064e1",
-            "Value": {
-                "id": "7f323390-5c6e-463f-a32c-6d71af8cdb57",
-                "resourcePath": "objects\\obj_botao_pontos\\obj_botao_pontos.yy",
-                "resourceType": "GMObject"
             }
         },
         {

@@ -8,20 +8,19 @@ var baixo = keyboard_check(vk_down);
 var tiro = keyboard_check_pressed(vk_space);
 var escudo = keyboard_check_pressed(ord("E"));
 
-
+x = clamp(x,32, room_width - 32);
+y = clamp(y,24, room_height - 24);
 
 // Movimento Horizontal.
 
 var velH = (dir-esq)*vel;
-
 x += velH;
-
 
 // Movimento Vertical.
 
 var velV = (baixo-cima)*vel;
-
 y += velV;
+
 
 //escudo
 if (escudo && obj_controle.qtd_escudo > 0)
@@ -75,7 +74,7 @@ if (tiro)
 		
 			repeat(3)
 			{
-				var t = instance_create_layer(x-10,y,"player", obj_tiro001);
+				var t = instance_create_layer(x,y,"player", obj_tiro001);
 				t.direction += delta;
 				t.image_angle += delta;
 				
