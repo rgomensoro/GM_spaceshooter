@@ -3,9 +3,7 @@
 
 if (room_destino != noone)
 {
-	var t = instance_create_layer(0,0,"player",obj_transicao);
-	t.room_destino = room_destino;
-	t.nova_room = true;
+	scr_transition(room_destino,false,0);
 }
 else
 	game_end();

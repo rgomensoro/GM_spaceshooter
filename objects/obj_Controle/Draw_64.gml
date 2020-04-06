@@ -3,9 +3,6 @@
 
 draw_set_font(fnt_botao);
 draw_text(20,20, "Level: " + string(global.level));
-draw_text(20,55, "Current XP: " + string(xp_atual));
-draw_text(20,90, "Inimigos Destruidos: " + string(global.inimigos_destruidos));
-draw_text(20,125, "XP to next level: " + string(xp_level-xp_atual));
 
 pos = 0;
 //desenhando a vida

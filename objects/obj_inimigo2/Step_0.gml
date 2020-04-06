@@ -41,5 +41,8 @@ if (vida_inimigo <= 0)
 		obj_controle.xp_atual+= 2;	
 	global.total_inimigos_destruidos++;
 	global.inimigos_destruidos++;
+	
+	scr_treme(10,snd_player_explosion,"player");	
+
 }
 

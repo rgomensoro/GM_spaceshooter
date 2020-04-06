@@ -3,7 +3,6 @@ if (!instance_exists(obj_pontos))
 	instance_create_layer(0,0,"player",obj_pontos);
 }
 
-var t = instance_create_layer(0,0,"player", obj_transicao);
-t.room_destino = ""; 
-t.sumindo = true;
-t.alpha = 1;
+scr_transition("",true, 1);
+
+audio_stop_all();

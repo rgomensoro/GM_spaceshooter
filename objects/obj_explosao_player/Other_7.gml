@@ -7,3 +7,4 @@ room_goto(rm_inicio);
 
 global.inimigos_destruidos = 0;
 
+alarm[0] = room_speed*3;

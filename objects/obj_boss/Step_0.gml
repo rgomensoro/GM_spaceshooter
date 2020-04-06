@@ -12,6 +12,8 @@ if (vida_inimigo <= 0)
 {
 	instance_destroy();		
 		
+	scr_treme(20, snd_player_explosion, "player");	
+	
 	if (instance_exists(obj_controle))
 	{
 		obj_controle.xp_atual += 200;

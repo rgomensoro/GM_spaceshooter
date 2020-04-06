@@ -4,6 +4,7 @@
 var inimigo = instance_create_layer(x,y-50,"inimigos",obj_explosao_boss);
 
 inimigo.image_xscale += 1;
-
 inimigo.image_yscale += 1;
+
+
 
